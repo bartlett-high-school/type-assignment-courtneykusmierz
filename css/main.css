@@ -1,5 +1,24 @@
 /* Hint! the @font-face rule needs to be the first thing in your CSS file!*/
+@font-face {
+    font-family: 'beryliumregular';
+    src: url('../fonts/berylium-webfont.woff2') format('woff2'),
+         url(../fonts/'berylium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+
+
+
+@font-face {
+    font-family: 'greyscalebasicregular';
+    src: url(../fonts/'greyscale_basic_regular-webfont.woff2') format('woff2'),
+         url('../fonts/greyscale_basic_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /* Start the CSS*/
 body {
@@ -22,29 +41,29 @@ body {
 }
 
 h1 {
-
+	font-family: 'beryliumregular', serif;
 }
 
 h2 {
-
+	font-family: 'beryliumregular', serif;
 }
 
 h3 {
-
+	 font-family: 'beryliumregular';
 }
 
 h4 {
-
+	font-family: 'greyscalebasicregular', sans-serif
 }
 
 h5 {
-
+	 font-family: 'greyscalebasicregular', sans-serif
 }
 
 h6 {
-
+	font-family: 'beryliumregular', serif;
 }
 
 p {
-
+`	font-family: 'beryliumregular', serif;
 }
